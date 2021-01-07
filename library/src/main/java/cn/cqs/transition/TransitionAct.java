@@ -24,7 +24,7 @@ public class TransitionAct extends AppCompatActivity {
     private static final String TRANSITION_ACTIVITY_FINISH = "activity_finish";
     private boolean isFinish = false;
     //页面跳转的时间
-    private long mTransitionDuration = 400;
+    private long mTransitionDuration = 300;
     private MaskView mMaskView;
     private String mFromActivityTransitionName;
     @Override

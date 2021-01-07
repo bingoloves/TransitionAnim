@@ -13,6 +13,7 @@ public class MainActivity extends TransitionAct {
         setContentView(R.layout.activity_main);
     }
     public void moveTwo(View view){
-        startActivity(new Intent(this,TwoActivity.class),true);
+        startActivity(new Intent(this,TwoActivity.class));
+//        startActivity(new Intent(this,TwoActivity.class),true);
     }
 }
